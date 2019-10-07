@@ -10,7 +10,8 @@ it('should calculate the number of zeros 3', () => {
 });
 
 it('should calculate the number of zeros 11', () => {
-  assert.equal(zeros('90!!*10!!'), 11);
+ let hul = zeros('90!!*10!!')
+  assert.equal(hul, 11);
 });
 
 it('should calculate the number of zeros 7', () => {
